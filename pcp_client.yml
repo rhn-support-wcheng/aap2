@@ -1,6 +1,6 @@
 ---
 - name: Install PCP client
-  hosts: pcp
+  hosts: all
   tasks:
     - name: Install pcp-zeroconf to latest
       yum:
